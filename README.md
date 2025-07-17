@@ -1,12 +1,37 @@
-# React + Vite
+# 🐦 Tweet Sentiment Classifier (React + Hugging Face)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple web app built with **React** that classifies the sentiment of tweets using a Hugging Face-hosted NLP model. It identifies whether a tweet is **Positive**, **Negative**, or **Neutral**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 Real-time sentiment analysis of tweets
+- 🤗 Powered by [Hugging Face Inference API](https://huggingface.co/inference-api)
+- 🧠 Uses the `bertweet-base-sentiment-analysis` model (trained specifically on Twitter data)
+- 💡 Clean React frontend with dynamic result display and emoji indicators
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼 Demo
+
+> Coming soon — or host it yourself using Vercel / Netlify!
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ React (frontend)
+- 🤗 Hugging Face Inference API
+- 📦 Vite / CRA (optional)
+- 🌐 Hosted model: [`finiteautomata/bertweet-base-sentiment-analysis`](https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis)
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/tweet-sentiment-classifier.git
+cd tweet-sentiment-classifier
